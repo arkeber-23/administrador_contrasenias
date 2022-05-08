@@ -1,0 +1,22 @@
+{
+    "name": "eber/administrador_contrasenias",
+    "description": "Adminsitrador de contraseñas personal",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eber\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "arkeber-23",
+            "email": "cabezasever@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "bramus/router": "dev-master",
+        "components/font-awesome": "dev-master"
+    }
+}

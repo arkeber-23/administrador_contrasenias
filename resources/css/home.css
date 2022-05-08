@@ -1,0 +1,55 @@
+.cuentas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 14px;
+  margin-top: 30px;
+  padding: 4px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(58, 57, 57, 0.63);
+}
+.card-img {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-img img {
+  width: 50%;
+}
+
+.card-body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 18px;
+  padding: 3px;
+}
+.card-body-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.Error-login{
+ background-color: #FAD7A0;
+ text-align: center;
+ padding: 12px;
+}
+
+.Error-login p{
+  font-size: bold;
+}
+
+@media (max-width: 750px) {
+  .cuentas {
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(40px, auto);
+  }
+}
